@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+.container-calculator {
+  height: 800px;
+  width: 1000px;
+  margin: 30px auto;
+  background-color: rgb(201, 249, 123);
+  padding: 20px;
+}
+
+.textarea {
+  height: 180px;
+  width: 900px;
+  margin: 0px auto 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.expr,
+.ans {
+  height: 70px;
+  width: 900px;
+  background-color: white;
+  padding: 0 30px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+.expr h1,
+.ans h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.exprholder,
+.ansholder {
+  font-size: 30px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftside-button,
+.rightside-button {
+  height: 500px;
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.rightside-button {
+  border-left: 2px solid green;
+}
+
+.button-num,
+.button-act {
+  height: 80px;
+  width: 80px;
+  background-color: rgb(0, 121, 26);
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button-act {
+  background-color: rgb(0, 75, 17);
+}
